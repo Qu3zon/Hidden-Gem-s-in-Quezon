@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  padding: 20px;
+  font-family: Arial;
+  text-align: justify;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>CATANAUAN, QUEZON</h1>
+<hr>
+
+<h2>CATANAUAN COVE</h2>
+<p>"Come visit and discover the natural beauty of the place you will certainly love”</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="catanauan1.png" alt="Beach Resort" style="width:100%">
+      <h3>Beach Resort</h3>
+      <p>Comfort yourselves with the elegance of nature, the serenity
+         of the seas and the privacy of the Catanauan Cove.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="catanauan2.jpg" alt="Catcove Residence" style="width:100%">
+      <h3>Catcove Residence</h3>
+      <p>Comfort yourselves with the elegance of nature &
+        privacy of Catanauan cove</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="Beautiful Sunset Spot">
+    <img src="catanuan3.jpg" alt="Nature" style="width:100%">
+      <h3>Beautiful Sunset Spot</h3>
+      <p>A Jewel of vision for a privileged few whose passion
+         & love for nature and the beach is a way of life.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="catanuan5.jpg" alt="Mountains" style="width:100%">
+      <h3>My Work</h3>
+      <p>Home by the beach…
+        never been better”</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="catanuan4.jpg" alt="Bear" style="width: 100%">
+  <h3>"Protect Mother Earth and be one with nature”</h3>
+
+  <p>The Catanauan Cove strongly supports and joins the advocacy to increase global awareness to protect Mother Earth for the enjoyment of our children and generations to come. The Catanauan Cove boasts itself with the wonderful gift of an earthly environment. It is in this respect, that we encourage our guests, to spend more time outdoors and be one with nature.
+  <p> Enjoy the morning sunrise along our 2 kilometer stretch of white sand beach / shoreline and listen to the tweeting songs of our colored birds around. Visit the 7 hectare mangrove plantation and see for the first time the various species of fish unknown to many. Walk around the rolling terrain of the resort and hear the whispering lashes of thousands of full grown trees, some of which are century old, and enjoy fireflies after rain showers. Snorkel the bubbling corals nearby or twinkle your eyes with the amazing fish jumping up and down the seas.
+    </p>
+  </p>
+</div>
+
+
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

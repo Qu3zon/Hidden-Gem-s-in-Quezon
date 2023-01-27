@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  padding: 20px;
+  font-family: Arial;
+  text-align: justify;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>Blue Pavilion Beach Resort</h1>
+<hr>
+
+<h2>INFANTA, QUEZON</h2>
+<p>Welcome to the Blue Pavilion Beach Resort. We are located in the beautiful province of Infanta, Quezon. 
+    Our beach resort is a great place to relax in and for spending quality time with family and friends. </p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Infanta1.jfif" alt="Beach Resort" style="width:100%">
+      <h3>Open Cabanas</h3>
+      <p>Feel the fresh air while on out our Infanta beach front cabanas. 
+        It can be occupied by ten people and is equipped with a long table. 
+        The beach front cabanas are near our huge grilling area.</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+    <img src="infanta2.jfif" alt="Catcove Residence" style="width:100%">
+      <h3>Blue Residence</h3>
+      <p>For those wanting extra comfort, the fully-air-conditioned Deluxe Rooms at the Blue Pavilion Beach Resort await. 
+        The Deluxe rooms can accommodate a maximum of six people. It has two queen-sized beds, toilet and bath, 
+        and a private terrace.</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="Beautiful Sunset Spot">
+    <img src="Infanta3.jfif" alt="Nature" style="width:100%">
+      <h3>Pavillion</h3>
+      <p>The Pavilion has three bedrooms, two bathrooms, a huge loft, 
+        a living room, a clean and dirty kitchen,and a dining room. 
+    The Pavilion is the heart of this Infanta beach resort. It is 
+    fully-furnished and can house seventy people.</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+    <img src="Infanta4.jfif" alt="Mountains" style="width:100%">
+      <h3>Game Room</h3>
+      <p>Our game room is where you can hang around and play indoor 
+        activities. The Blue Pavilion Beach Resort game room has a billiard 
+        table, table tennis, dart boards, and board games. A basketball court 
+        is just outside if you want to play hoops.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="Infanta5.jfif" alt="Bear" style="width: 100%">
+  <h3>The Blue Pavillion</h3>
+
+  <p>To our Infanta, Quezon beach resort is in prime, virgin beach shoreline where the sands and water are still virtually untouched. We have wide, open sands where you can enjoy outdoor activities such as swimming, beach volleyball, Frisbee and badminton.
+
+    Ride the waves with our sea scooter or go snorkelling and explore the underwater beauty of Infanta, Quezon. If you’re more into indoor, laid-back activities, you can play billiards, darts, playing cards or board games in our game room. 
+    A bonfire is lit every night on the beach – perfect for marshmallows and star-gazing while listening to the serene Infanta waters. Make a wish and take part in the lighting of floating lanterns, watch them float away into the clear night sky of Quezon.
+    We are committed in providing top-notch service. Our courteous and friendly staff make sure that you enjoy the cool breeze, the sea and the sand. We have nurtured the existing gardens and trees and added new ones to make sure that the natural beach ecosystem remain clean and healthy.
+    Blue Pavilion Beach Resort welcomes you with a smile with a promise to make your stay here in Infanta, Quezon, one of the best ever.
+    
+    
+    </p>
+  </p>
+</div>
+
+
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

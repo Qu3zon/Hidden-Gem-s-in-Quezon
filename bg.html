@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+  font-size: 19PX;
+  margin-top: 0%;
+  font-weight:50px;
+  text-align: center;
+
+}
+
+.content a {
+    background-color: rgb(252, 255, 252);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display:contents;
+    text-align:start;
+    font-size: 100%;
+    font-weight:50px;
+}
+.content h1{
+  font-size: 60px;
+  text-align: center;
+}
+
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor:pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="Ocean.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<section class="content">
+    <div class="bg"></div>
+    <div class="card">
+        <div class="card-image a3-1"></div>
+
+    <a href="index.html"><h1>HIDDEN GEM'S OF QUEZON</h1></a>
+
+    <p>Welcome to Quezon, Province. The land of Thousand Colors.Welcome to Quezon, Province.
+      Tourism Quezon is a province with many beautiful natural sights. It is one of the most 
+      beautiful provinces in the Philippines and is full of both cultural and natural attractions. 
+      Because of this, the province is very popular, and people from all over the world come to visit 
+      during the summer and on holidays. Take nothing but pictures, leave nothing but footprints,
+        kill nothing but time” A Jewel of vision for a privileged few whose passion & love for nature 
+        and the beach is a way of life.</p>
+  
+    </div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+
+</script>
+
+</body>
+</html>
